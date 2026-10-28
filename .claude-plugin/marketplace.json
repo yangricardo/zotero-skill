@@ -1,6 +1,9 @@
 {
   "name": "zotero-skill",
-  "owner": { "name": "Yang Miranda" },
+  "description": "Skills de integração com a Zotero Web API v3.",
+  "owner": {
+    "name": "Yang Miranda"
+  },
   "plugins": [
     {
       "name": "zotero-skill",
