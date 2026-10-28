@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+*.env
+!tests/fixtures/*.env
+itens.json
+keys.tsv
+fontes/
+.DS_Store
