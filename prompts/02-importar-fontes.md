@@ -6,7 +6,7 @@ Prompt para delegar a tarefa a um agente. Troque o que está entre `<>`.
 
 Objetivo: enviar ao Zotero (Web API v3) as fontes da pesquisa `<PROJETO>` com os arquivos
 anexados. Trabalhe em `<PASTA>`, onde estão `<ids.txt>` (DOI/arXiv, um por linha),
-`<fontes.ris|.bib>` e `<baixar_fontes.sh>`. Use `scripts/zot.py` da skill zotero-api.
+`<fontes.ris|.bib>` e `<baixar_fontes.sh>`. Use `scripts/zot.py` da skill zotero-api (no repositório, `skills/zotero-api/scripts/zot.py`).
 
 1. **Credenciais:** siga o SKILL.md. Se faltarem, use `prompts/01-configurar-credenciais.md`.
    Nunca exiba a chave. O `whoami` precisa mostrar write e files.

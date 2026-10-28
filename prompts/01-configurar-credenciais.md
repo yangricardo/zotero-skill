@@ -26,7 +26,7 @@ Não encontrei credenciais do Zotero. Para configurar (leva uns 2 minutos):
 ## Depois que o usuário avisar
 
 ```bash
-python3 scripts/zot.py whoami   # library, write e files precisam estar true
+python3 skills/zotero-api/scripts/zot.py whoami   # library, write e files precisam estar true
 ```
 
 Se der 403 "Invalid key", confira o formato sem exibir a chave:

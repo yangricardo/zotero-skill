@@ -1,4 +1,4 @@
-"""Carrega scripts/zot.py isolado do ambiente real e simula a API."""
+"""Carrega skills/zotero-api/scripts/zot.py isolado do ambiente real e simula a API."""
 import importlib.util, io, os, pathlib, re, sys
 from contextlib import redirect_stderr, redirect_stdout
 
@@ -10,7 +10,7 @@ def load_zot():
     for k in ("ZOTERO_API_KEY", "ZOTERO_LIBRARY", "ZOTERO_BASE"):
         os.environ.pop(k, None)
     os.environ["ZOTERO_ENV_FILE"] = str(FIXTURES / "nao-existe.env")
-    spec = importlib.util.spec_from_file_location("zot", ROOT / "scripts" / "zot.py")
+    spec = importlib.util.spec_from_file_location("zot", ROOT / "skills" / "zotero-api" / "scripts" / "zot.py")
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     mod.KEY = "A" * 24
