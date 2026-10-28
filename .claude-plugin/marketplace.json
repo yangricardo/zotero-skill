@@ -1,0 +1,11 @@
+{
+  "name": "zotero-skill",
+  "owner": { "name": "Yang Miranda" },
+  "plugins": [
+    {
+      "name": "zotero-skill",
+      "source": "./",
+      "description": "Zotero Web API v3: cliente, importação de fontes e sincronização do references.bib."
+    }
+  ]
+}

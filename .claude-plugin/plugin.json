@@ -1,0 +1,9 @@
+{
+  "name": "zotero-skill",
+  "version": "0.2.0",
+  "description": "Skills para a Zotero Web API v3: cliente zot.py, importação de fontes de pesquisa (DOI, arXiv, RIS, BibTeX, PDFs) e sincronização do references.bib de artigos LaTeX.",
+  "author": { "name": "Yang Miranda" },
+  "repository": "https://github.com/yangricardo/zotero-skill",
+  "license": "MIT",
+  "keywords": ["zotero", "bibtex", "references", "research"]
+}
