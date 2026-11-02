@@ -79,9 +79,6 @@ Os testes não usam rede nem credenciais. O HTTP é simulado em `tests/helpers.p
 
 ## Origem
 
-Extraídas da importação das 17 fontes da pesquisa EmendasRAG (RAG sobre emendas parlamentares),
-em 28/10/2026. Lições incorporadas:
-
 - O `whoami` usa `/keys/current` e avisa quando a chave não tem 24 caracteres.
 - Os erros mascaram a chave.
 - O `attach --fallback-url` e o `attach-many` tratam o erro de cota (413).
